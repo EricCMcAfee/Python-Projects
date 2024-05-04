@@ -72,5 +72,5 @@ def getClues(guess, secretNum):
         else:
             clues.sort()
             return ' '.join(clues)
-        
+
 main()
