@@ -87,5 +87,3 @@ probability = round(simMatch / 100_000 * 100, 2)
 print("Out of 100,000 simulations of", numBDays, "people, there was a matching birthdays in that group", simMatch, "times.") 
 print("This means that", numBDays, "people have a", probability, "% chance of having a matching birthday in their group.")
 print("That's probably more than you would think!")
-
-
